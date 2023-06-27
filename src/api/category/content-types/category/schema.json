@@ -25,6 +25,12 @@
       "relation": "oneToMany",
       "target": "api::prompt.prompt",
       "mappedBy": "category"
+    },
+    "ai_tools": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ai-tool.ai-tool",
+      "mappedBy": "category"
     }
   }
 }
