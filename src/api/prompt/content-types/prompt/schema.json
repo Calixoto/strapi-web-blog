@@ -45,7 +45,8 @@
       "components": [
         "shared.media",
         "shared.quote",
-        "shared.rich-text"
+        "shared.rich-text",
+        "shared.tik-tok"
       ]
     }
   }

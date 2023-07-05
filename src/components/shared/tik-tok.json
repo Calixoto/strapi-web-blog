@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_tik_toks",
+  "info": {
+    "displayName": "TikTok",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

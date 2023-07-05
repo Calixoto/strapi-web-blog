@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ai-tool",
     "pluralName": "ai-tools",
-    "displayName": "AITool"
+    "displayName": "AITool",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,12 +21,12 @@
       "required": true
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "slug": {
       "type": "uid",
@@ -43,7 +44,8 @@
       "components": [
         "shared.rich-text",
         "shared.media",
-        "shared.quote"
+        "shared.quote",
+        "shared.tik-tok"
       ]
     }
   }
